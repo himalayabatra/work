@@ -1,0 +1,47 @@
+/*top banner*/
+section .topBanner .topBannerContainer {
+  padding-top: 2%;
+}
+section .topBanner .partnerText {
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 992px) {
+  section .topBanner {
+    height: auto;
+  }
+  section .topBanner .topBannerContainer {
+    padding: 60px 183px;
+  }
+  section .topBanner .partnerText {
+    margin: 0 50px 60px;
+    line-height: 40px;
+  }
+}
+
+/*services list*/
+.dbaContainer .heading {
+  color: #ca0f0f;
+}
+@media screen and (min-width: 992px) {
+  .dbaContainer .servicesList li {
+    display: block;
+    padding-bottom:60px;
+  }
+  .dbaContainer .servicesList li .subHeading {
+      text-align: left;
+      font-size:24px;
+      line-height: 24px;
+      font-weight:400;
+  }
+  .dbaContainer .servicesList li p {
+      width: 70%;
+      line-height: 24px;
+  }
+  .dbaContainer .servicesList li img {
+    float: right;
+  }
+  .dbaContainer .servicesList li .transparentBtnBorder {
+    display: none;
+  }
+}
